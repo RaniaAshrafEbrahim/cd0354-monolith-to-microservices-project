@@ -3,21 +3,19 @@ kind: Deployment
 metadata:
   name: frontend
   labels:
-    service: frontend
+    app: frontend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      service: frontend
-      api: external
+      app: frontend
   template:
     metadata:
       labels:
-        service: frontend
-        api: external
+        app: frontend
     spec:
       containers:
-      - image: vasilkosturski/udagram-frontend
+      - image: raniaashraf200/udagram-frontend:v6
         name: frontend
         imagePullPolicy: Always          
         ports:
