@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: rania-376564985474-stag
+  AWS_PROFILE: defult
+  AWS_REGION: us-west-2
+  JWT_SECRET: hello
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: d-1.clzg3ssh2xcl.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
