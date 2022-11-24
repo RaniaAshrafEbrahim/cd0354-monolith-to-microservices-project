@@ -15,7 +15,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: raniaashraf200/udagram-api-feed:v5
+      - image: raniaashraf200/udagram-api-feed:v6
         name: backend-feed
         imagePullPolicy: Always                
         env:
