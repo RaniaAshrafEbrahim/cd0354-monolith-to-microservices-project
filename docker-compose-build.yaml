@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ./udagram-frontend
-    image: raniaashraf200/udagram-frontend:v6
+    image: raniaashraf200/udagram-frontend:v7

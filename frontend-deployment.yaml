@@ -17,7 +17,7 @@ spec:
       containers:
       - image: raniaashraf200/udagram-frontend:v6
         name: frontend
-        imagePullPolicy: Always          
+        imagePullPolicy: IfNotPresent          
         ports:
         - containerPort: 80
         resources:
