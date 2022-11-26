@@ -15,7 +15,7 @@ spec:
         app: backend-feed
     spec:
       containers:
-      - image: raniaashraf200/udagram-api-feed:v6
+      - image: raniaashraf200/udagram-api-feed:v7
         name: backend-feed
         imagePullPolicy: IfNotPresent                
         env:
